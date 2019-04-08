@@ -1,0 +1,14 @@
+{
+    "title": "Review",
+    "description": "A review",
+    "definitions": {
+        "review": {
+          "type": "object",
+          "properties": {
+            "content": { "description": "A review's content", "type": "string" },
+            "rate": { "description": "A review's rate", "type": "number", "minimum": 1, "maximum": 5 },
+          },
+          "required": ["content", "rate"]
+        }
+  }
+}

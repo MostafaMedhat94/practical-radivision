@@ -1,0 +1,49 @@
+html,
+body,
+#root,
+.view {
+    height: 100%;
+}
+
+body {
+    margin-top: 80px;
+    padding: 30px;
+}
+
+/* Styled Navbar */
+.nav-bar-header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 14px 0 black;
+}
+
+.nav-bar-header * {
+    display: inline;
+}
+
+.nav-bar-header li {
+    margin: 20px;
+}
+
+/* Styled View-image Button */
+.active-button {
+    background-color: green;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+}
+
+/* Styled Image Container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
